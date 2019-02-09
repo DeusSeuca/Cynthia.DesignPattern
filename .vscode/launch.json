@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Simple Factory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "simple factory",
+            "cwd": "${workspaceFolder}/src/",
+            "program": "SimpleFactory/bin/Debug/netcoreapp2.2/SimpleFactory.dll",
+            "console": "externalTerminal",
+        },
+    ]
+}
