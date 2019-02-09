@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCDC56BC-0B91-469D-AD6D-0AA86E12D8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "src\SimpleFactory\SimpleFactory.csproj", "{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +18,22 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x64.Build.0 = Release|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD} = {BCDC56BC-0B91-469D-AD6D-0AA86E12D8F4}
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,9 @@
 namespace SimpleFactory
 {
+    //水果接口
     public interface IFruit
-    {//水果接口
-        string Info();//得到相关信息
+    {
+        //得到相关信息(有点不沾边..)
+        string Info();
     }
 }
