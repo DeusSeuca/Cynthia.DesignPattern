@@ -15,7 +15,7 @@ namespace SimpleFactory
                 fruit = new Banana();
             }
             else
-            {
+            {   //否则抛个异常
                 throw new System.Exception("Type Undefine(类型没有被定义)");
             }
             //这里可以写一些自动化处理

@@ -5,9 +5,15 @@
             "name": "Simple Factory",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "simple factory",
-            "cwd": "${workspaceFolder}/src/",
-            "program": "SimpleFactory/bin/Debug/netcoreapp2.2/SimpleFactory.dll",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/SimpleFactory/bin/Debug/netcoreapp2.2/SimpleFactory.dll",
+            "console": "externalTerminal",
+        },{
+            "name": "Strategy",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Strategy/bin/Debug/netcoreapp2.2/Strategy.dll",
             "console": "externalTerminal",
         },
     ]

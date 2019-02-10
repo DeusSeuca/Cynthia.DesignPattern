@@ -4,12 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "simple factory",
+            "label": "build",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/SimpleFactory/SimpleFactory.csproj"
+                "${workspaceFolder}"
             ],
             "problemMatcher": "$msCompile"
         }

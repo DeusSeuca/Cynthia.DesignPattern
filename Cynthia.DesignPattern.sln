@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCDC56BC-0B9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "src\SimpleFactory\SimpleFactory.csproj", "{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "src\Strategy\Strategy.csproj", "{ED931934-C310-4F51-9726-BF2AC29B8CE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x64.Build.0 = Release|Any CPU
 		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x86.ActiveCfg = Release|Any CPU
 		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD}.Release|x86.Build.0 = Release|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Debug|x64.Build.0 = Debug|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Release|x64.ActiveCfg = Release|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Release|x64.Build.0 = Release|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B74BFB07-CA12-4CB3-870C-8E2F0822F5DD} = {BCDC56BC-0B91-469D-AD6D-0AA86E12D8F4}
+		{ED931934-C310-4F51-9726-BF2AC29B8CE5} = {BCDC56BC-0B91-469D-AD6D-0AA86E12D8F4}
 	EndGlobalSection
 EndGlobal
