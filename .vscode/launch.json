@@ -15,6 +15,20 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/src/Strategy/bin/Debug/netcoreapp2.2/Strategy.dll",
             "console": "externalTerminal",
+        },{
+            "name": "Observer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Observer/bin/Debug/netcoreapp2.2/Observer.dll",
+            "console": "externalTerminal",
+        },{
+            "name": "Template Method",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/TemplateMethod/bin/Debug/netcoreapp2.2/TemplateMethod.dll",
+            "console": "externalTerminal",
         },
     ]
 }
