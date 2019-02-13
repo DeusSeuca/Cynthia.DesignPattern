@@ -2,6 +2,7 @@ using System;
 
 namespace TemplateMethod
 {
+    //模板类
     public abstract class LoopSystem
     {
         //不变的主流程

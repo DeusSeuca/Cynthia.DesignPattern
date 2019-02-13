@@ -29,6 +29,20 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/src/TemplateMethod/bin/Debug/netcoreapp2.2/TemplateMethod.dll",
             "console": "externalTerminal",
+        },{
+            "name": "Singleton",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Singleton/bin/Debug/netcoreapp2.2/Singleton.dll",
+            "console": "externalTerminal",
+        },{
+            "name": "Decorator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Decorator/bin/Debug/netcoreapp2.2/Decorator.dll",
+            "console": "externalTerminal",
         },
     ]
 }
