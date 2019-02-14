@@ -57,6 +57,13 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/src/FactoryMethod/bin/Debug/netcoreapp2.2/FactoryMethod.dll",
             "console": "externalTerminal",
+        },{
+            "name": "Abstract Factory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/AbstractFactory/bin/Debug/netcoreapp2.2/AbstractFactory.dll",
+            "console": "externalTerminal",
         },
     ]
 }
