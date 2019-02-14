@@ -43,6 +43,20 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/src/Decorator/bin/Debug/netcoreapp2.2/Decorator.dll",
             "console": "externalTerminal",
+        },{
+            "name": "Bridge",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Bridge/bin/Debug/netcoreapp2.2/Bridge.dll",
+            "console": "externalTerminal",
+        },{
+            "name": "Factory Method",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/FactoryMethod/bin/Debug/netcoreapp2.2/FactoryMethod.dll",
+            "console": "externalTerminal",
         },
     ]
 }
